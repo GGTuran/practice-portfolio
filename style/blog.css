@@ -54,3 +54,13 @@ background-color: #F15B22;
     margin: 15px;
     padding: 25px;
 }
+/* body */
+.body-text{
+    color: #151414;
+font-size: 40px;
+font-family: Work Sans;
+font-weight: 700;
+word-wrap: break-word;
+text-align: center;
+align-items: center;
+}
