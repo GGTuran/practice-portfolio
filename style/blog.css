@@ -1,14 +1,30 @@
 /* Header section style */
 .header-container{
     display: flex;
+    justify-content: center;
     text-align: center;
     /* background-image: url("../images/banner/banner1.png"); */
-    /* height: 100%; */
+    /* height: 100vh */
     /* width: 100%; */
+    /* background: url(../images/banner/banner1.png); */
+    /* background-size: 100%; */
+    /* image height: 100%; */
+    background-image: url(../images/banner/banner1.png);
+    background-repeat: no-repeat;
+    
+}
+.header-text-container{
+    /* background-image: url(../images/banner/banner1.png); */
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    background-size: cover; 
+    background-size: cover;
+    align-items: center;
 }
 .image-container{
-    height:100%
-    width:100%
+    height:100%;
+    width:100%;
 }
 .header-text{
 
@@ -16,7 +32,8 @@ color: #151414;
  font-size: 65px;
  font-family: Work Sans;
  font-weight: 700;
- word-wrap: break-word
+ word-wrap: break-word;
+ text-align: right;
 }
 .header-text-item{
 color: #979393;
@@ -24,7 +41,8 @@ color: #979393;
  font-family: Work Sans;
  font-weight: 400;
  line-height: 26px;
- word-wrap: break-word
+ word-wrap: break-word;
+ text-align: right;
 }
 .btn-primary{
 font-size: 20px;
@@ -35,6 +53,9 @@ font-family: Work Sans;
 background-color: #F15B22;
 }
 /* main container style */
+
+    /* background-color: #F15B22; */
+
 .main-container{
     display: flex;
     justify-content:center;
@@ -63,4 +84,75 @@ font-weight: 700;
 word-wrap: break-word;
 text-align: center;
 align-items: center;
+}
+
+/* plan style */
+.plan-container{
+    width: 80%;
+    margin: auto;
+}
+.plan-heading{
+    text-align: center;
+    margin: 5px;
+}
+.plans{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 5px;
+}
+.plan{
+    margin: 5px;
+    align-items: center;
+    text-align: center;
+}
+.plan-para{
+    color: darkgray;
+}
+
+/* mindset style */
+.mindset-container{
+    /* align-items: first baseline; */
+    height: 25vh;
+    width: 80%;
+    border-radius: 2opx;
+    margin: auto;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    padding: auto;
+    /* margin-left: 100px;? */
+   
+    background-image: linear-gradient(90deg,#227cf1 0%,rgba(241,91,34,0.00)100%),url(../images/watch.png);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.mindset-btn{
+    color: white;
+    background-color: #F15B22;
+    height: 20px;
+    box-shadow: none;
+    border-radius: 20px;
+}
+/* footer style */
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #151414;
+    color: white;
+}
+.subs{
+    margin-top: 10px;
+    background-color: white;
+    color: #F15B22;
+    border-radius: 7px;
+    text-align: center;
+}
+.form{
+    border-radius: 3px;
 }
